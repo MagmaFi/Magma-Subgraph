@@ -1,2 +1,3 @@
-# Magma-Subgraph
-Magma Subgraph Server
+## Magma Subgraph Documentation
+
+### Introduction

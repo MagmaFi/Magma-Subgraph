@@ -1,0 +1,16 @@
+{
+  "name": "magma-subgraph",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "create-local": "graph create equilibre/subgraph1 --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy equilibre/subgraph1 --ipfs http://localhost:5001 --node http://127.0.0.1:8020",            
+    "test": "graph test"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "^0.51.2",
+    "@graphprotocol/graph-ts": "^0.30.0",
+    "web3": "^1.0.0"
+  }
+}
